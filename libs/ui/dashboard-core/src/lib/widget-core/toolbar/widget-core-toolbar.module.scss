@@ -1,0 +1,22 @@
+.toolbar{
+  display: flex;
+  flex-direction: row;
+
+  background-color: rgb(248, 249, 250);
+  height: 2rem;
+  padding: 0.3rem;
+
+  &__title{
+    flex:1;
+    font-weight: 500;
+    cursor: move;
+  }
+
+
+  &__buttons{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+  }
+
+}
