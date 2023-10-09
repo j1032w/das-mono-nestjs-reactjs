@@ -17,7 +17,7 @@
 
 https://gitlab.com/j10322/das-mono-nestjs-reactjs/-/pipelines
 
-[![GitLab](documentations/gitlab.png)](https://gitlab.com/j1032w/react-dashboard-starter/-/pipelines)
+[![GitLab](documentations/gitlab-pipeline.png)](https://gitlab.com/j1032w/react-dashboard-starter/-/pipelines)
 
 
 
