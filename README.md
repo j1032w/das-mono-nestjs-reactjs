@@ -23,7 +23,7 @@ https://gitlab.com/j1032w/das-mono-nestjs-reactjs/-/pipelines
 
 # Features
 
-- Built with  [ReactJS 18](https://react.dev/), [NestJS 10](https://nestjs.com/),  [Typescript 5](https://www.typescriptlang.org/), [react-redux 7](https://react-redux.js.org/), and [Material UI 5](https://mui.com/)
+- Built with  [ReactJS 18](https://react.dev/), [NestJS 10](https://nestjs.com/), [MongoDB 6](https://www.mongodb.com/), [Typescript 5](https://www.typescriptlang.org/), [react-redux 7](https://react-redux.js.org/), and [Material UI 5](https://mui.com/)
 - [Nx](https://nx.dev/) monorepo structure with [vite](https://vitejs.dev/) builder  
 - Integrated [CSS Module](https://github.com/css-modules/css-modules) with [SCSS](https://sass-lang.com/documentation/syntax) 
 - Unit testing with [Jest](https://jestjs.io/) and [React Testing Library ](https://testing-library.com/docs/react-testing-library/intro/) 
