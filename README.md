@@ -12,10 +12,9 @@
 
 ![Demo](documentations/react-das-cypress.gif)
 
-
 ![](documentations/redux-chrome.png)
 
-
+![](documentations/swagger.png)
 
 
 # Features
@@ -81,4 +80,6 @@ https://gitlab.com/j1032w/das-mono-nestjs-reactjs/-/pipelines
 
 
 # SonarQube static code analysis
-[![SonarQube static code analysis](documentation/sonarqube.png)](https://sonarcloud.io/summary/overall?id=j1032w_das-mono-nestjs-reactjs)
+https://sonarcloud.io/summary/overall?id=j1032w_das-mono-nestjs-reactjs
+
+[![SonarQube static code analysis](documentations/sonarqube.png)](https://sonarcloud.io/summary/overall?id=j1032w_das-mono-nestjs-reactjs)
