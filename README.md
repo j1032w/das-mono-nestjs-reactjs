@@ -1,5 +1,6 @@
 # React Dashboard Starter
 **React dashboard boilerplate project.**\
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=j1032w_das-mono-nestjs-reactjs&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=j1032w_das-mono-nestjs-reactjs)
 [![GitLabPipeline](https://gitlab.com/j1032w/das-mono-nestjs-reactjs/badges/main/pipeline.svg)](https://gitlab.com/j1032w/das-mono-nestjs-reactjs/-/pipelines)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 <a href="https://github.com/j1032w/das-mono-nestjs-reactjs" target="_blank"><img src="https://visitor-badge.laobi.icu/badge?page_id=j1032w.das-mono-nestjs-reactjs"></a>
