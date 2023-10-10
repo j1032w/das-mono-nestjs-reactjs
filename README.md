@@ -15,15 +15,12 @@
 
 ![](documentations/redux-chrome.png)
 
-https://gitlab.com/j1032w/das-mono-nestjs-reactjs/-/pipelines
-
-[![GitLab](documentations/gitlab-pipeline.png)](https://gitlab.com/j1032w/react-dashboard-starter/-/pipelines)
 
 
 
 # Features
 
-- Built with  [ReactJS 18](https://react.dev/), [NestJS 10](https://nestjs.com/), [MongoDB 6](https://www.mongodb.com/), [Typescript 5](https://www.typescriptlang.org/), [react-redux 7](https://react-redux.js.org/), and [Material UI 5](https://mui.com/)
+- Built with  [ReactJS 16](https://react.dev/), [NestJS 10](https://nestjs.com/), [MongoDB 6](https://www.mongodb.com/), [Typescript 5](https://www.typescriptlang.org/), [react-redux 7](https://react-redux.js.org/), and [Material UI 5](https://mui.com/)
 - [Nx](https://nx.dev/) monorepo structure with [vite](https://vitejs.dev/) builder  
 - Integrated [CSS Module](https://github.com/css-modules/css-modules) with [SCSS](https://sass-lang.com/documentation/syntax) 
 - Unit testing with [Jest](https://jestjs.io/) and [React Testing Library ](https://testing-library.com/docs/react-testing-library/intro/) 
@@ -77,5 +74,11 @@ yarn build
 
 ![Demo](documentations/design.png)
 
+# GitLab CI/CD Pipeline
+https://gitlab.com/j1032w/das-mono-nestjs-reactjs/-/pipelines
 
-<a title="web stats" href="https://statcounter.com/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/12895561/0/d6769449/1/" alt="web stats" referrerPolicy="no-referrer-when-downgrade"></a>
+[![GitLab](documentations/gitlab-pipeline.png)](https://gitlab.com/j1032w/react-dashboard-starter/-/pipelines)
+
+
+# SonarQube static code analysis
+[![SonarQube static code analysis](documentation/sonarqube.png)](https://sonarcloud.io/summary/overall?id=j1032w_das-mono-nestjs-reactjs)
