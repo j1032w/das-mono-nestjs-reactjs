@@ -48,6 +48,7 @@ services:
       - MONGO_URI=mongodb://das_mongo:27017
       - MONGO_DB_NAME=das_data
 
+    command: yarn start-api
 
     ports:
       - "3000:3000"
@@ -56,7 +57,21 @@ services:
     depends_on: [das_mongo]
 
 
-networks:
-  das_network:
-    name: das_network
-    driver: bridge
+  das_graphql:
+    container_name: das_graphql
+    restart: always
+
+    build:
+      context: .
+      dockerfile: ./apps/webapi/graphql/Dockerfile
+
+
+    volumes:
+      - .:/app
+
+    command: yarn start-graphql
+
+    ports:
+      - "3008:3008"
+      - "9238:9229"
+
