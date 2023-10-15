@@ -16,12 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@das/ui-common-component": ["libs/ui/common-component/src/index.ts"],
-      "@das/ui-dashboard-core": ["libs/ui/dashboard-core/src/index.ts"],
-      "das-application": ["libs/webapi/das/core/das-application/src/index.ts"],
-      "das-data": ["libs/webapi/das/infrastructure/das-data/src/index.ts"],
-      "das-domain": ["libs/webapi/das/core/das-domain/src/index.ts"],
-      "das-shared": ["libs/webapi/das/infrastructure/das-shared/src/index.ts"],
-      "das-utility": ["libs/webapi/das/infrastructure/das-utility/src/index.ts"]
+      "@das/ui-dashboard-core": ["libs/ui/dashboard-core/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

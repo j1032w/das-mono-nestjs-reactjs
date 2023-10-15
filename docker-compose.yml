@@ -57,21 +57,7 @@ services:
     depends_on: [das_mongo]
 
 
-  das_graphql:
-    container_name: das_graphql
-    restart: always
-
-    build:
-      context: .
-      dockerfile: ./apps/webapi/graphql/Dockerfile
-
-
-    volumes:
-      - .:/app
-
-    command: yarn start-graphql
-
-    ports:
-      - "3008:3008"
-      - "9238:9229"
-
+networks:
+  das_network:
+    name: das_network
+    driver: bridge
