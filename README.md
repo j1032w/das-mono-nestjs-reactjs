@@ -23,8 +23,8 @@
 
 - Built with  [ReactJS 16](https://react.dev/), [NestJS 10](https://nestjs.com/), [MongoDB 6](https://www.mongodb.com/), [Typescript 5](https://www.typescriptlang.org/), [react-redux 7](https://react-redux.js.org/), and [Material UI 5](https://mui.com/)
 - [Nx](https://nx.dev/) monorepo structure with [vite](https://vitejs.dev/) builder  
-- Integrate with GraphQL, REST API and Swagger
-- Follows clean architecture
+- Integrate with [GraphQL](https://graphql.org/), REST API and [Swagger](https://swagger.io/)
+- Follows [clean architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 - Integrated [CSS Module](https://github.com/css-modules/css-modules) with [SCSS](https://sass-lang.com/documentation/syntax) 
 - Unit testing with [Jest](https://jestjs.io/) and [React Testing Library ](https://testing-library.com/docs/react-testing-library/intro/) 
 - E2E automation testing with [Cypress](https://www.cypress.io/)
