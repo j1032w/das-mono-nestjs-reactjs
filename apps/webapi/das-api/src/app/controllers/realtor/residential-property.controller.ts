@@ -17,8 +17,9 @@ import {
 } from '@nestjs/swagger';
 import {ResidentialPropertyService} from '../../core/applications/realtors';
 import {ResidentialProperty} from '../../core/domains';
+import {ResidentialPropertyQuery} from '../../infrastructures/shared';
 
-import {ResidentialPropertyQuery} from './residential-property-query';
+
 
 
 @ApiTags('realtor/residential-property')
@@ -79,7 +80,6 @@ export class ResidentialPropertyController {
   @ApiOperation({
     operationId: 'realtor_residential_property_find',
     description: `Search residential properties`,
-
   })
   @ApiBody({
     description: '',

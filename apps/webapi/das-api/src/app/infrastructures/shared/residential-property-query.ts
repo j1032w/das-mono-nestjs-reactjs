@@ -1,14 +1,15 @@
 import {
-  ApiOperation,
-  ApiPropertyOptional
-} from '@nestjs/swagger';
+  Field,
+  InputType
+} from '@nestjs/graphql';
+import {ApiPropertyOptional} from '@nestjs/swagger';
 import {IsOptional} from 'class-validator';
-import {ResidentialProperty} from '../../core/domains';
-import {MongoRepositoryGeneric} from '../../infrastructures/mongo/repositories/mongo-repository.generic';
 
 
-export class ResidentialPropertyQuery extends MongoRepositoryGeneric<ResidentialProperty> {
+@InputType()
+export class ResidentialPropertyQuery {
 
+  @Field({nullable: true})
   @ApiPropertyOptional({
     description: 'The unique identifier of the residential property',
     example: '5f7f1b9a-3b7a-4b0a-8b0a-0b0a0b0a0b0a',
@@ -16,6 +17,8 @@ export class ResidentialPropertyQuery extends MongoRepositoryGeneric<Residential
   @IsOptional()
   public id?: string;
 
+
+  @Field({nullable: true})
   @ApiPropertyOptional({
     description: 'The value of the residential property',
     example: '1199000',
@@ -23,6 +26,8 @@ export class ResidentialPropertyQuery extends MongoRepositoryGeneric<Residential
   @IsOptional()
   priceUnformattedValue?: number;
 
+
+  @Field({nullable: true})
   @ApiPropertyOptional({
     description: 'The type of the residential property',
     example: 'Single Family',
@@ -31,6 +36,7 @@ export class ResidentialPropertyQuery extends MongoRepositoryGeneric<Residential
   propertyType?: string;
 
 
+  @Field({nullable: true})
   @ApiPropertyOptional({
     description: 'The number of bedrooms of the residential property',
     example: 1,
@@ -39,6 +45,7 @@ export class ResidentialPropertyQuery extends MongoRepositoryGeneric<Residential
   buildingBathroomTotal?: number;
 
 
+  @Field({nullable: true})
   @ApiPropertyOptional({
     description: 'The number of bedroom of the residential property',
     example: 2,
@@ -47,7 +54,7 @@ export class ResidentialPropertyQuery extends MongoRepositoryGeneric<Residential
   buildingBedroom?: number;
 
 
-
+  @Field({nullable: true})
   @ApiPropertyOptional({
     description: 'The province of the residential property',
     example: 'Alberta',
@@ -56,6 +63,7 @@ export class ResidentialPropertyQuery extends MongoRepositoryGeneric<Residential
   public provinceName?: string;
 
 
+  @Field({nullable: true})
   @ApiPropertyOptional({
     description: 'The building type of the residential property',
     example: 'House',
@@ -63,7 +71,7 @@ export class ResidentialPropertyQuery extends MongoRepositoryGeneric<Residential
   buildingType?: string;
 
 
-
+  @Field({nullable: true})
   @ApiPropertyOptional({
     description: 'The city of the residential property',
     example: 'Calgary',

@@ -17,11 +17,14 @@
 
 ![](documentations/swagger.png)
 
+![](documentations/graphql.png)
 
 # Features
 
 - Built with  [ReactJS 16](https://react.dev/), [NestJS 10](https://nestjs.com/), [MongoDB 6](https://www.mongodb.com/), [Typescript 5](https://www.typescriptlang.org/), [react-redux 7](https://react-redux.js.org/), and [Material UI 5](https://mui.com/)
 - [Nx](https://nx.dev/) monorepo structure with [vite](https://vitejs.dev/) builder  
+- Integrate with GraphQL, REST API and Swagger
+- Follows clean architecture
 - Integrated [CSS Module](https://github.com/css-modules/css-modules) with [SCSS](https://sass-lang.com/documentation/syntax) 
 - Unit testing with [Jest](https://jestjs.io/) and [React Testing Library ](https://testing-library.com/docs/react-testing-library/intro/) 
 - E2E automation testing with [Cypress](https://www.cypress.io/)
@@ -41,7 +44,10 @@ git clone https://github.com/j1032w/das-mono-nestjs-reactjs.git
 docker compose build
 docker compose up -d
 ```
-3. Navigate to [http://localhost:8080/](http://localhost:4200/)
+3. Navigate to \
+   UI: http://localhost:8080/ \
+   API: http://localhost:3000/ \
+   GraphQL: http://localhost:3000/graphql
 
 
 # Development
