@@ -48,8 +48,9 @@ docker compose build
 docker compose up -d
 ```
 3. Navigate to \
-   UI: http://localhost:8080/ \
-   API: http://localhost:3000/ \
+   UI: http://localhost:8080 \
+   socke.io: http://localhost:8081 \
+   API: http://localhost:3000 \
    GraphQL: http://localhost:3000/graphql
 
 
