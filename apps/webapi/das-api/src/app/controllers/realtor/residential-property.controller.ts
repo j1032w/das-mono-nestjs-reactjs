@@ -79,7 +79,7 @@ export class ResidentialPropertyController {
 
   @ApiOperation({
     operationId: 'realtor_residential_property_find',
-    description: `Search residential properties`,
+    description: `Find residential properties`,
   })
   @ApiBody({
     description: '',
