@@ -5,16 +5,10 @@
   "scripts": {
     "start-ui": "nx run das-ui:serve",
     "build-ui": "nx run das-ui:build",
-
-
     "start-api": "nx run das-api:serve",
     "build-api": "nx run das-api:build",
-
-
     "build-graphql": "nx run graphql:build",
     "start-graphql": "nx run graphql:serve",
-
-
     "build": "nx run-many --all --target=build --no-cloud --no-cache",
     "lint": "nx run-many --all --target=lint --no-cloud --no-cache",
     "test": "nx run-many --all --target=test --no-cloud --no-cache",
@@ -36,10 +30,11 @@
     "@nestjs/jwt": "^10.1.1",
     "@nestjs/passport": "^10.0.2",
     "@nestjs/platform-express": "^10.0.2",
+    "@nestjs/platform-socket.io": "^10.2.7",
     "@nestjs/swagger": "^7.1.13",
+    "@nestjs/websockets": "^10.2.7",
     "@reduxjs/toolkit": "^1.9.7",
     "@swc/helpers": "~0.5.2",
-    "@types/multer-s3": "^3.0.0",
     "axios": "^1.0.0",
     "bcryptjs": "2.4.3",
     "class-transformer": "^0.5.1",
@@ -97,14 +92,16 @@
     "@types/facebook-js-sdk": "3.3.6",
     "@types/jest": "^29.4.0",
     "@types/lodash": "^4.14.195",
+    "@types/mongodb": "^4.0.7",
     "@types/multer": "1.4.7",
+    "@types/multer-s3": "^3.0.0",
     "@types/node": "18.15.11",
     "@types/react": "18.2.24",
     "@types/react-dom": "18.2.9",
     "@types/react-grid-layout": "^1.3.2",
     "@types/react-redux": "^7.1.25",
+    "@types/socket.io": "^3.0.2",
     "@types/supertest": "2.0.12",
-    "@types/mongodb": "^4.0.7",
     "@typescript-eslint/eslint-plugin": "^5.60.1",
     "@typescript-eslint/parser": "^5.60.1",
     "@vitejs/plugin-react": "^4.0.0",

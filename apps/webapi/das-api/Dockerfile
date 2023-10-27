@@ -18,6 +18,6 @@ ADD apps \
 
 RUN yarn install
 
-EXPOSE 3000
+EXPOSE 3000 8081
 
 CMD ["yarn", "start-api"]

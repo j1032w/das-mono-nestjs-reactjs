@@ -46,10 +46,12 @@ services:
       - MONGO_URI=mongodb://das-mongo:27017
       - MONGO_DB_NAME=das
 
+
     command: yarn start-api
 
     ports:
       - "3000:3000"
+      - "8081:8081" # for socket.io events gateway
       - "9230:9229"
 
     depends_on: [das-mongo]

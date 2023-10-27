@@ -4,6 +4,7 @@ import {MongoModule} from 'nest-mongodb';
 import appConfig from './config/app.config';
 import {ControllerModule} from './controllers/controller.module';
 import {RealtorGraphqlModule} from './graphql/realtor-graphql.module';
+import {NotificationGatewayModule} from './notification-gateway/notification-gateway.module';
 
 
 
@@ -19,7 +20,7 @@ import {RealtorGraphqlModule} from './graphql/realtor-graphql.module';
     MongoModule.forRoot(process.env.MONGO_URI, process.env.MONGO_DB_NAME, {}),
 
     ControllerModule,
-
+    NotificationGatewayModule,
     RealtorGraphqlModule
 
   ],
